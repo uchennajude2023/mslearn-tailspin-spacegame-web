@@ -12,5 +12,6 @@ steps:
     displayName: "dotnet build $(buildConfiguration)"
 
   - task: Npm@1
-    displayname: "Run npm install"
-    inputs: verbose:false
+    displayName: "Run npm install"
+    inputs:
+      verbose: false
